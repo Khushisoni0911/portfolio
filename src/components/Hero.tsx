@@ -225,49 +225,8 @@ export default function Hero() {
               />
             </div>
 
-            {/* Floating badge */}
-            <motion.div
-              initial={{ opacity: 0, x: 20 }}
-              animate={{ opacity: 1, x: 0 }}
-              transition={{ delay: 0.8 }}
-              style={{
-                position: "absolute", bottom: 10, right: -20,
-                background: "rgba(2,11,24,0.9)",
-                border: "1px solid rgba(0,245,255,0.2)",
-                borderRadius: "12px",
-                padding: "0.6rem 1rem",
-                backdropFilter: "blur(12px)",
-                fontSize: "0.78rem",
-                fontWeight: 600,
-                color: "#00f5ff",
-                whiteSpace: "nowrap",
-              }}
-            >
-              🎓 8.98 CGPA
-            </motion.div>
-
-            <motion.div
-              initial={{ opacity: 0, x: -20 }}
-              animate={{ opacity: 1, x: 0 }}
-              transition={{ delay: 1 }}
-              style={{
-                position: "absolute", top: 20, left: -20,
-                background: "rgba(2,11,24,0.9)",
-                border: "1px solid rgba(139,92,246,0.3)",
-                borderRadius: "12px",
-                padding: "0.6rem 1rem",
-                backdropFilter: "blur(12px)",
-                fontSize: "0.78rem",
-                fontWeight: 600,
-                color: "#8b5cf6",
-                whiteSpace: "nowrap",
-              }}
-            >
-              🤖 AI & ML Engineer
-            </motion.div>
           </motion.div>
         </div>
-
         {/* Scroll indicator */}
         <motion.div
           initial={{ opacity: 0 }}
