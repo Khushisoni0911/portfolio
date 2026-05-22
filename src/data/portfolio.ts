@@ -5,7 +5,6 @@ export const personalInfo = {
   summary:
     "Software Engineering undergraduate (8.98 CGPA) with a strong analytical foundation in Python, Java, and Data Structures & Algorithms. Hands-on experience developing diverse technical solutions, including real-time web applications with API integration, IoT-based monitoring systems, and AI-driven predictive models. Proven track record of leadership as a GDG Coordinator, demonstrating a commitment to learning emerging technologies and collaborating in high-impact team environments. Eager to apply technical proficiency and research-driven problem-solving skills to build innovative, scalable software and hardware solutions.",
   email: "sonikhushi2728@gmail.com",
-  phone: "+91-7482006881",
   location: "Kolkata, India",
   github: "https://github.com/Khushisoni0911",
   linkedin: "https://www.linkedin.com/in/khushi-soni-07861828b",

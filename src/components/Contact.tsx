@@ -50,7 +50,7 @@ export default function Contact() {
 
               {[
                 { icon: <Mail size={16} />, label: "Email", value: personalInfo.email, href: `mailto:${personalInfo.email}` },
-                { icon: <Phone size={16} />, label: "Phone", value: personalInfo.phone, href: `tel:${personalInfo.phone}` },
+               // { icon: <Phone size={16} />, label: "Phone", value: personalInfo.phone, href: `tel:${personalInfo.phone}` },
                 { icon: <MapPin size={16} />, label: "Location", value: personalInfo.location },
               ].map((item, i) => (
                 <div key={i} style={{ display: "flex", gap: "1rem", marginBottom: "1.25rem", alignItems: "flex-start" }}>
