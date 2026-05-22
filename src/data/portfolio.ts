@@ -9,7 +9,7 @@ export const personalInfo = {
   location: "Kolkata, India",
   github: "https://github.com/Khushisoni0911",
   linkedin: "https://www.linkedin.com/in/khushi-soni-07861828b",
-  profileImage: "/profile.jpeg",
+  profileImage: "/profile.png",
 };
 
 export const education = [
