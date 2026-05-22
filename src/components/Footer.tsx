@@ -25,7 +25,7 @@ export default function Footer() {
               <span style={{ fontWeight: 700, color: "var(--text-primary)" }}>Khushi Soni</span>
             </div>
             <p style={{ fontSize: "0.8rem", color: "var(--text-muted)" }}>
-              AI & ML Engineer · IEM Kolkata
+              Software Engineer · IEM Kolkata
             </p>
           </div>
 
@@ -64,7 +64,7 @@ export default function Footer() {
           fontSize: "0.78rem", color: "var(--text-muted)",
           display: "flex", alignItems: "center", justifyContent: "center", gap: "0.3rem",
         }}>
-          Made with <Heart size={12} style={{ color: "#ef4444" }} fill="#ef4444" /> by Khushi Soni · {new Date().getFullYear()}
+          Made by Khushi Soni · {new Date().getFullYear()}
         </div>
       </div>
     </footer>
